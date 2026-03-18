@@ -40,6 +40,16 @@ Create training data in QGIS
 Complete OBIA proess: segmentation, classification
 Analyze- confusion matrix, accuracy
 
+## Conclusions and further direction
+
+Overall, the code worked fairly well at achieving our goal. We switched from using Landsat to Sentinel-2 data, with a 10 meter resolution. We originally planned to clip our data by elevation and distance to coast, but didn't end up needing to do that. One challenge we ran into was harmonizing data over time, as Sentinel changed their data parameters in 2022 to allow negative reflectance, which impacted our CMRI analysis. 
+
+We chose the Cà Mau peninsula because a group member had some familiarity with aquaculture in this region and we knew nearly all vegetation in this tile will be mangroves. In our analysis we encourtered both regrowth and reforestation by humans, and could oberve patterns of tree planting and cutting in the ponds. 
+
+One struggle we ran into was with irregular pond shapes, which would also be an obstacle to expanding this program to analyze a larger and more diverse area. We also found there to be an ambiguous line between mangrove integrated and non-mangrove integrated ponds. 
+
+Further directions to take this project in would be scaling up the program to be able to analyze larger and more varied areas, experimenting with the parameters of the segmentation to better show the ponds, and building a user interface for people to observe the data with. 
+
 ## Any other relevant information, images/tables, references, etc.
 
 References
