@@ -1,6 +1,6 @@
 # trees_n_shrimps
 
-Project Title
+Project Title:
 Remote Sensing of Mangrove Change 
 
 ## Name(s) of individual or team members
