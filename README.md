@@ -40,6 +40,12 @@ Create training data in QGIS
 Complete OBIA proess: segmentation, classification
 Analyze- confusion matrix, accuracy
 
+## Directions for use
+Use Bands_analysis.ipynb to download Sentinel-2 images, stack bands, calculate basic indices
+Use mangrove_geo_obiaOimage_segmentation.ipynb to segment and classify the images and evaluate accuracy
+camau_trainingobject folder contains manually-created training shapefiles (created in QGIS)
+segmentatino_classification_tutorial contains original code copied from 
+
 ## Conclusions and further direction
 
 Overall, the code worked fairly well at achieving our goal. We switched from using Landsat to Sentinel-2 data, with a 10 meter resolution. We originally planned to clip our data by elevation and distance to coast, but didn't end up needing to do that. One challenge we ran into was harmonizing data over time, as Sentinel changed their data parameters in 2022 to allow negative reflectance, which impacted our CMRI analysis. 
